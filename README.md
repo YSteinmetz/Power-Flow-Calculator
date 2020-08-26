@@ -8,7 +8,7 @@
     <h1> How to contribute to this project: </h1>
     <p> I need help to organize the archives with a better software architeture, to translate the project to english and display the results in a file in PDF. </p>
     <h2>Input type: </h2>
-    <p>Open the dadossis.m to more details</p>
+    <p>Open the dadossis.m for more details</p>
     <p>The input must have this format<p>
     <pre>
     basemva=100;
