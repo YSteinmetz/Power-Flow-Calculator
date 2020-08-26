@@ -5,9 +5,7 @@
   <body>
     <h1>Instructions to use</h1>
     <p> To use this program, run the GUINEWTON file, and will pop up an interface to load the data file and select the method to evaluate the power flow.</p>
-    <h1> How to contribute to this project: </h1>
-    <p> I need help to organize the archives with a better software architeture, to translate the project to english and display the results in a file in PDF. </p>
-    <h2>Input type: </h2>
+        <h2>Input type: </h2>
     <p>Open the dadossis.m for more details</p>
     <p>The input must have this format<p>
     <pre>
@@ -43,6 +41,8 @@ linedata=
 %           4      2      0.0    0.02   0.0     1     0.9  1.1
 %          ];
           </pre>
+    <h1> How to contribute to this project: </h1>
+    <p> I need help to organize the archives with a better software architeture, to translate the project to english and display the results in a file in PDF. </p>
     
    <h1> Known bugs:</h1>
     
