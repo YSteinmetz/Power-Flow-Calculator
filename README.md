@@ -3,9 +3,9 @@
 <head>
 </head>
   <body>
-    <h1><?php 
+    <p><?php 
     print "Test \n";
-?></h1>
+?></p>
     <h1>Instructions to use</h1>
     <p> To use this program, run the GUINEWTON file, and will pop up an interface to load the data file and select the method to evaluate the power flow.</p>
         <h2>Input type: </h2>
