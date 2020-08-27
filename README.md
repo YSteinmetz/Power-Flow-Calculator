@@ -3,6 +3,7 @@
 <head>
 </head>
   <body>
+    <h1><?PHP 1 + 1 ?>
     <h1>Instructions to use</h1>
     <p> To use this program, run the GUINEWTON file, and will pop up an interface to load the data file and select the method to evaluate the power flow.</p>
         <h2>Input type: </h2>
