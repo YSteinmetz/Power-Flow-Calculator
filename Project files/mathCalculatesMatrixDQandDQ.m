@@ -1,4 +1,4 @@
-function [DP, DQ] = NOVAcalculadpdq(busdata,maskDP,maskDQ,NB,G,B)
+function [DP, DQ] = mathCalculatesMatrixDQandDQ(busdata,maskDP,maskDQ,NB,G,B)
     
 Pkesp = busdata(:,7)-busdata(:,5);   %Pgerado - Pdemandado       
 Qkesp = busdata(:,8)-busdata(:,6);    %Qgerado - Qdemandado

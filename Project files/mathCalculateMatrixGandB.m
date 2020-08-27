@@ -1,4 +1,4 @@
-function [G,B] = calculaGeB(linedata,NB)
+function [G,B] = mathCalculateMatrixGandB(linedata,NB)
     G = zeros(NB,NB);
     B = zeros(NB,NB);
 for aux = 1:NB

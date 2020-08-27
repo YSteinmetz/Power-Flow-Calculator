@@ -1,4 +1,4 @@
-function [J] = NovaJacobiana(busdata,G,B,NB,maskDP,maskDQ)
+function [J] = mathCalculatesJacobian(busdata,G,B,NB,maskDP,maskDQ)
 
 H = zeros(NB,NB);     %Linhas e Colunas de H devem ter tamanho NPQ + NPV
 N = zeros(NB,NB);         %Linhas de N deve ter tamanho NPQ + NPV e Colunas tamanho NPQ

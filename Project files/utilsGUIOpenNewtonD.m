@@ -1,4 +1,4 @@
-function guiabrenewtonD(busdata,linedata,basemva,var)
+function utilsGUIOpenNewtonD(busdata,linedata,basemva,var)
 clc;
 tic % começa a contar o tempo
 erro = 0.003;

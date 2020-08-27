@@ -45,10 +45,9 @@ set(handles.text3,'String','Os resultados serão apresentados no Command Window')
 pause(0.5); %pausa o programa por 0.5s
 set(handles.text3,'String',''); %depois apaga oque está escrito no text3
 
-
 var = get(handles.edit1,'string'); %vai receber oque esta escrito no edit1 (caixa que o usuário pode alterar)
 run(var) %roda oque foi escrito
-NOVAguiabrenewton(busdata,linedata,basemva,var); %comeca o calculo
+utilsGUIOpenNewton(busdata,linedata,basemva,var); %comeca o calculo
 
 
 % --- Executes on button press in pushbutton2.
@@ -72,7 +71,7 @@ set(handles.text3,'String',''); %depois apaga oque está escrito no text3
 
 var = get(handles.edit1,'string'); %vai receber oque esta escrito no edit1 (caixa que o usuário pode alterar)
 run(var) %roda oque foi escrito
-guiabrenewtonD(busdata,linedata,basemva,var); %comeca o calculo
+utilsGUIOpenNewtonD(busdata,linedata,basemva,var); %comeca o calculo
 
 
 % --- Executes on button press in btn_ajuda.

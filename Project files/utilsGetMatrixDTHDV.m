@@ -1,4 +1,4 @@
-function [DTHDV] = NOVAmoveDTHDV(busdata,maskDP,maskDQ,NB)
+function [DTHDV] = utilsGetMatrixDTHDV(busdata,maskDP,maskDQ,NB)
 
 DTHDV=zeros(2*NB,1);
 submask = [maskDP;maskDQ];
