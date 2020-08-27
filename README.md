@@ -3,8 +3,8 @@
 <head>
 </head>
   <body>
-    <h1><?php $x = 1;
-    echo "Testing php" .$x. "/n";
+    <h1><?php 
+    print "Test \n";
 ?></h1>
     <h1>Instructions to use</h1>
     <p> To use this program, run the GUINEWTON file, and will pop up an interface to load the data file and select the method to evaluate the power flow.</p>
